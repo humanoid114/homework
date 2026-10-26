@@ -1,0 +1,108 @@
+*{
+margin: 0;
+padding: 0;
+list-style-type: none;
+box-sizing: border-box;
+}
+section{
+background-image: url(./img/Frame\ \(1\).png);
+height: 100vh;
+background-size: cover;
+background-position: 50% 50%;
+}
+.container{
+display: grid;
+grid-template-columns: 1fr 1fr;
+max-width: 900px;
+margin: auto;
+}
+.fish-container img{
+max-width: 500px;
+
+}
+
+text-container{
+display: flex;
+flex-direction:column ;
+gap: 20px;
+}
+h2{
+ font-size: 30px;  
+ color: white; 
+}
+oceanpets-container{
+display: flex;  
+flex-direction: column;  
+gap: 20px;
+}
+ocean-container-text{
+    color: white;
+    max-width: 400px;
+}
+
+.oceanpets-container-contact{
+display: flex;
+flex-direction: column;
+gap: 3px;
+}
+.oceanpets-container-contact{
+color: white
+}
+.oceanpets-container-btns{
+ display: flex;  
+ gap: 10px; 
+}
+.oceanpets-container-btns-boxes{
+display: flex;    
+flex-direction: column;
+gap: 5px;
+
+}
+
+.box{
+    display: flex;
+gap: 5px;
+border-radius: 8px;
+border: 1px solid white;
+padding: 8px;
+}
+
+p{
+    color:black
+}
+
+h2{ color: black}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.item {
+  width: 48%;
+}
+
+
+@media screen and (max-width: 100x) {
+  .container {
+    flex-direction: column;
+  }
+  
+  .item {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
